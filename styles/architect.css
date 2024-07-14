@@ -22,18 +22,30 @@
 .text-light-gray {
   color: #727272;
 }
+.btn-primary {
+  background-color: #ff900e;
+  color: white;
+  padding: 20px 25px;
+  font-size: 1.25rem;
+  border-radius: 8px;
+  border: none;
+}
 
 /* header Styles */
 
 /* Navbar Relates Styles */
 .navbar {
   justify-content: space-between;
+  align-items: center;
 }
 
 .navbar,
 .banner {
   width: 1440px;
   margin: 0 auto;
+}
+.brand {
+  font-size: 2.8rem;
 }
 
 .nav-item {
@@ -43,4 +55,30 @@
 .nav-link {
   text-decoration: none;
   font-weight: 500;
+}
+/* Banner Styles */
+.banner-content {
+  max-width: 862px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.banner-title {
+  font-weight: 700;
+  font-size: 4rem;
+}
+.banner-description {
+  margin-bottom: 22px;
+}
+.banner-image {
+  width: 100%;
+}
+
+/* Responsive Media Query */
+
+@media screen and (max-width: 576px) {
+  .navbar,
+  .nav-links {
+    flex-direction: column;
+  }
 }
