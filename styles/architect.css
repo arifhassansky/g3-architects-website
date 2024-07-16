@@ -160,11 +160,11 @@ main > section {
   max-width: 586px;
 }
 .feature-card {
-  width: 586px;
+  max-width: 586px;
   margin-right: 100px;
   padding: 36px;
 }
-.featured-image {
+.featured-image img {
   width: 100%;
 }
 
